@@ -11,5 +11,5 @@ public class Main {
         System.out.println("----------------------------------------------");
         System.out.println("prices after discount :");
     for(int i=0;i<5;i++){
-        System.out.println("\n"+products[i].getName()+": $"+products[i].applyDiscount(.15));
+        System.out.println("\n"+products[i].getName()+": $"+products[i].applyDiscount(.10));
 }}}
