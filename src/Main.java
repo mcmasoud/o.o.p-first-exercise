@@ -10,6 +10,9 @@ public class Main {
         products[i].displayInfo();}
         System.out.println("----------------------------------------------");
         System.out.println("prices after discount :");
-    for(int i=0;i<5;i++){
-        System.out.println("\n"+products[i].getName()+": $"+products[i].applyDiscount(.10));
-}}}
+     System.out.println("\n"+products[0].getName()+": "+products[0].getPrice());
+        System.out.println("\n"+products[1].getName()+": $"+products[1].applyDiscount(.10));
+        System.out.println("\n"+products[2].getName()+": $"+products[2].applyDiscount(.20));
+        System.out.println("\n"+products[3].getName()+": "+products[3].getPrice());
+        System.out.println("\n"+products[4].getName()+": $"+products[4].applyDiscount(.15));
+}}
